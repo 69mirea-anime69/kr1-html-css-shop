@@ -47,7 +47,9 @@ kr1-html-css-shop/
 
 Откройте `index.html` в браузере. Все страницы связаны общей навигацией.
 
-GitHub Pages: https://69mirea-anime69.github.io/kr1-html-css-shop/`r`n`r`nРепозиторий: https://github.com/69mirea-anime69/kr1-html-css-shop
+GitHub Pages: [Открыть сайт](https://69mirea-anime69.github.io/kr1-html-css-shop/)
+
+Репозиторий: [GitHub](https://github.com/69mirea-anime69/kr1-html-css-shop)
 
 ## Данные студента
 
@@ -57,4 +59,5 @@ GitHub Pages: https://69mirea-anime69.github.io/kr1-html-css-shop/`r`n`r`nРеп
 ## Самостоятельная часть
 
 Для оформления выбрана тема предметов для рабочего стола, подготовлены простые SVG-иллюстрации, добавлены статические категории каталога, навигационные хлебные крошки и отдельная таблица характеристик товара.
+
 
