@@ -3,22 +3,70 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Лампа Линия: описание, характеристики и цена в магазине «Точка».">
-  <title>Лампа «Линия» — Точка</title>
+  <meta name="description" content="Описание и характеристики лампы «Линия».">
+  <title>Товар — Точка</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="site-header"><div class="site-header__inner"><a class="site-header__logo" href="index.html" aria-label="Точка — на главную">точка<span>.</span></a><nav class="site-nav" aria-label="Основная навигация"><ul class="site-nav__list"><li class="site-nav__item"><a class="site-nav__link" href="index.html">Главная</a></li><li class="site-nav__item"><a class="site-nav__link" href="catalog.html">Каталог</a></li><li class="site-nav__item"><a class="site-nav__link site-nav__link--active" href="product.html">Товар</a></li><li class="site-nav__item"><a class="site-nav__link" href="order.html">Заявка</a></li><li class="site-nav__item"><a class="site-nav__link" href="contacts.html">Контакты</a></li></ul></nav><a class="site-header__phone" href="tel:+380441234567">+38 (044) 123-45-67</a></div></header>
-  <main class="page-container page-main">
-    <nav class="breadcrumbs" aria-label="Хлебные крошки"><a href="index.html">Главная</a><span aria-hidden="true">/</span><a href="catalog.html">Каталог</a><span aria-hidden="true">/</span><span>Лампа «Линия»</span></nav>
-    <section class="product-detail" aria-labelledby="product-title">
-      <div class="product-detail__image"><img src="images/lamp.svg" alt="Настольная лампа Линия жёлтого цвета"><span class="badge product-detail__badge">Хит</span></div>
-      <div class="product-detail__info"><p class="eyebrow">Для вечерней работы</p><h1 class="page-title" id="product-title">Лампа «Линия»</h1><p class="product-detail__text">Лаконичная настольная лампа с направленным светом. Подойдёт для чтения, заметок и спокойной работы за столом.</p><p class="product-detail__price">1 490 грн</p><div class="button-row"><a class="button" href="order.html?item=lamp">Оставить заявку</a><a class="button button--light" href="#request-modal">Задать вопрос</a></div><p class="product-detail__hint">Заявка отправляется через форму на отдельной странице.</p></div>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-header__logo" href="index.html">Точка</a>
+      <nav class="site-nav">
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link" href="index.html">Главная</a></li>
+          <li><a class="site-nav__link" href="catalog.html">Каталог</a></li>
+          <li><a class="site-nav__link" href="product.html">Товар</a></li>
+          <li><a class="site-nav__link" href="order.html">Заявка</a></li>
+          <li><a class="site-nav__link" href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-container">
+    <h1>Лампа «Линия»</h1>
+    <section class="product-detail">
+      <img src="images/lamp.svg" alt="Настольная лампа">
+      <div>
+        <p>Настольная лампа для чтения и работы.</p>
+        <p class="product-card__price">1 490 ₽</p>
+        <a class="button" href="order.html">Оставить заявку</a>
+        <a class="button button--light" href="#request-modal">Открыть окно</a>
+      </div>
     </section>
-    <section class="specifications" aria-labelledby="spec-title"><div class="section-heading"><p class="eyebrow">Подробности</p><h2 class="section-heading__title" id="spec-title">Характеристики</h2></div><div class="table-wrap"><table class="spec-table"><caption>Характеристики лампы «Линия»</caption><thead><tr><th scope="col">Параметр</th><th scope="col">Значение</th></tr></thead><tbody><tr><th scope="row">Материал</th><td>Металл</td></tr><tr><th scope="row">Цвет</th><td>Тёплый жёлтый</td></tr><tr><th scope="row">Высота</th><td>38 см</td></tr><tr><th scope="row">Тип света</th><td>Направленный</td></tr><tr><th scope="row">Цена</th><td>1 490 грн</td></tr></tbody></table></div></section>
-    <aside class="product-note"><strong>Нужна консультация?</strong><span>Позвоните нам: <a href="tel:+380441234567">+38 (044) 123-45-67</a></span></aside>
+
+    <section>
+      <h2>Характеристики</h2>
+      <table class="spec-table">
+        <caption>Характеристики лампы</caption>
+        <thead>
+          <tr><th>Параметр</th><th>Значение</th></tr>
+        </thead>
+        <tbody>
+          <tr><th>Материал</th><td>Металл</td></tr>
+          <tr><th>Цвет</th><td>Жёлтый</td></tr>
+          <tr><th>Высота</th><td>38 см</td></tr>
+          <tr><th>Цена</th><td>1 490 ₽</td></tr>
+        </tbody>
+      </table>
+    </section>
   </main>
-  <div class="modal" id="request-modal"><div class="modal__backdrop"></div><section class="modal__box" role="dialog" aria-modal="true" aria-labelledby="modal-title"><a class="modal__close" href="product.html" aria-label="Закрыть">×</a><p class="eyebrow">Мы на связи</p><h2 class="modal__title" id="modal-title">Хотите узнать больше?</h2><p class="modal__text">Оставьте заявку, и мы ответим на ваши вопросы о лампе.</p><a class="button" href="order.html?item=lamp">К форме заявки</a></section></div>
-  <footer class="site-footer"><div class="site-footer__inner"><a class="site-header__logo site-header__logo--footer" href="index.html">точка<span>.</span></a><p class="site-footer__text">Вещи для рабочего стола</p><a class="site-footer__link" href="contacts.html">Контакты</a><p class="site-footer__copy">© 2026 «Точка»</p></div></footer><a class="fixed-link" href="order.html">Оставить заявку <span aria-hidden="true">↗</span></a>
+
+  <div class="modal" id="request-modal">
+    <section class="modal__box">
+      <a class="modal__close" href="product.html">Закрыть</a>
+      <h2>Оставить заявку</h2>
+      <p>Чтобы заказать лампу, перейдите к форме.</p>
+      <a href="order.html">Форма заявки</a>
+    </section>
+  </div>
+
+  <footer class="site-footer">
+    <p>Магазин «Точка»</p>
+    <a href="index.html">Главная</a>
+    <a href="catalog.html">Каталог</a>
+    <a href="contacts.html">Контакты</a>
+  </footer>
 </body>
 </html>
+
