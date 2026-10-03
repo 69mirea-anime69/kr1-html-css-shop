@@ -386,3 +386,22 @@ button:disabled {
 [aria-invalid="true"] {
   border-color: var(--color-danger);
 }
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.breadcrumbs {
+  margin-bottom: var(--space-md);
+  color: var(--color-muted);
+  font-size: 14px;
+}
+
+.breadcrumbs a {
+  margin-right: var(--space-sm);
+}
+
+.breadcrumbs span::before {
+  content: "/ ";
+}
