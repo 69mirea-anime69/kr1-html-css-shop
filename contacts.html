@@ -32,3 +32,42 @@
       <p>Телефон: <a href="tel:+70000000000">+7 (000) 000-00-00</a></p>
       <p>Электронная почта: <a href="mailto:hello@tochka.example">hello@tochka.example</a></p>
       <p>Адрес: пример учебного проекта</p>
+      <p>Телефон и электронная почта указаны для примера.</p>
+    </section>
+
+
+    <section>
+      <h2>Форма обратной связи</h2>
+      <form class="order-form" action="#" method="get">
+        <div class="order-form__field">
+          <label class="order-form__label" for="contact-name">Имя</label>
+          <input class="order-form__input" id="contact-name" name="name" type="text" required>
+        </div>
+        <div class="order-form__field">
+          <label class="order-form__label" for="contact-email">Электронная почта</label>
+          <input class="order-form__input" id="contact-email" name="email" type="email" required>
+        </div>
+        <div class="order-form__field order-form__field--full">
+          <label class="order-form__label" for="message">Сообщение</label>
+          <textarea class="order-form__textarea" id="message" name="message" rows="4" required></textarea>
+        </div>
+        <div class="order-form__field order-form__field--full">
+          <p><input class="order-form__input" id="contact-consent" name="consent" type="checkbox" required> <label class="order-form__label" for="contact-consent">Согласен(на) на обработку данных</label></p>
+        </div>
+        <div class="order-form__field order-form__field--full">
+          <button class="button button--primary" type="submit">Отправить сообщение</button>
+          <p>Это учебная форма. Отправка данных не настроена.</p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+
+  <footer class="site-footer">
+    <p>Магазин «Точка»</p>
+    <a href="index.html">Главная</a>
+    <a href="catalog.html">Каталог</a>
+    <a href="order.html">Заявка</a>
+  </footer>
+</body>
+</html>
