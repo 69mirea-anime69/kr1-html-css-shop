@@ -205,3 +205,8 @@ input[aria-invalid="true"], select[aria-invalid="true"], textarea[aria-invalid="
 @media (max-width: 450px) {
   .products-grid { grid-template-columns: 1fr; }
 }
+
+
+.order-form__input[type="checkbox"] {
+  width: auto;
+}
